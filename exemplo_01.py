@@ -33,9 +33,23 @@ import random
 import os
 
 os.system('cls')
-n = random.randint(1, 5)
-m = random.randint(1, 5)
-print(n, m)
+# n = random.randint(1, 5)
+# m = random.randint(1, 5)
+# print(n, m)
 
-list_numbers = [random.randint(1, 10)for i in range(5)]
-print(list_numbers)
+# list_numbers = [random.randint(1, 10)for i in range(5)]
+# print(list_numbers)
+
+
+'''EXEMPLO 02 - FUNÇÃO'''
+
+def gerar_numeros (i, f, q):
+    lst_num = [random.randint(i, f) for num in range(q)]
+    return lst_num 
+
+ini = int(input('Informe o primeiro número do intervalo: '))
+fim = int(input('Informe o último número do intervalo: '))
+qdt = int(input('Quantos números? '))
+
+numeros = gerar_numeros(ini, fim, qdt)
+print(numeros)

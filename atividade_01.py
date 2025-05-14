@@ -30,3 +30,4 @@ mult = multiplica(num1, num2)
 
 print (adicao, sub, div, mult)
 
+#receber numeros aleatórios

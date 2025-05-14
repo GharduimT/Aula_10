@@ -65,3 +65,4 @@ mult = multiplica(num1, num2)
 print('Estes são os números escolhidos aleatóriamente', num1, 'e', num2)
 print('SOMA', adicao, '\n', 'SUBTRAÇÃO', sub, '\n', 'DIVISÃO', div, '\n', 'MULTIPLICAÇÃO', mult)
 
+#USUÁRIO ESCOLHERÁ QUAL OPERAÇÃO SERÁ REALIZADA (utilizar MATCH CASE)
